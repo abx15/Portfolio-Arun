@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Arun Kumar - Full Stack Developer Portfolio showcasing MERN stack projects and team collaboration.">
+    <meta name="keywords" content="Arun Kumar, Full Stack Developer, MERN Stack, Web Development, Portfolio, Team">
+    <meta name="author" content="Arun Kumar">
+    <title>Arun Kumar | Full Stack Developer</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5c5e5c5e5c5e5c5e5c5e5" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/arun.png" alt="Arun Kumar">
+                <a href="#home" class="gradient-text">Arun Kumar</a>
+            </div>
+            <input type="checkbox" id="menu-toggle" aria-hidden="true">
+            <label for="menu-toggle" id="menu-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div id="mobile-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#journey">Journey</a>
+                <a href="#projects">Projects</a>
+                <a href="#team">Team</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" role="banner">
+        <div class="container hero-content">
+            <div class="hero-image">
+                <img src="../images/arun.png" alt="Arun Kumar Profile" loading="lazy">
+            </div>
+            <div class="hero-text">
+                <h1 class="gradient-text">Arun Kumar</h1>
+                <!-- <p class="tagline">Crafting Scalable Web Apps</p> -->
+                <p class="tagline">Developer & Creative Designer</p>
+                <p>
+                    Pryagraj MERN stack developer at TechSolutions, building user-friendly solutions with a
+                    passionate team.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="X">
+                        <i class="fab fa-x-twitter"></i> X
+                    </a>
+                    <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+                <div>
+                    <a href="#contact" class="btn-primary">Get In Touch</a>
+                    <a href="path/to/your/cv.pdf" class="btn-secondary" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" role="region" aria-label="About me">
+        <div class="container">
+            <h2 class="gradient-text fade-in">About Me</h2>
+            <div class="about-content slide-left">
+                <div class="glass-card">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 16px;">Who Am I?</h3>
+                    <p>
+                        I'm Arun Kumar, a 20-year-old Full Stack Developer from Pryagraj, passionate about building
+                        innovative web applications with the MERN stack.
+                    </p>
+                    <p>
+                        My coding journey began at 18, driven by curiosity and problem-solving. Now at TechSolutions, I
+                        develop enterprise-grade apps and collaborate with talented teams.
+                    </p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px;">
+                        <div>
+                            <h4 style="color: var(--primary); font-weight: 700;">Education</h4>
+                            <p>B.Sc Computer Science</p>
+                            <p style="color: var(--text-muted); font-size: 0.875rem;">University of Allahabad
+                                (2022-2025)</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--primary); font-weight: 700;">Experience</h4>
+                            <p>Full Stack Developer</p>
+                            <p style="color: var(--text-muted); font-size: 0.875rem;">TechSolutions (2025-Present)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="glass-card text-center">
+                        <h3 style="font-weight: 700; font-size: 1.25rem;">1500+</h3>
+                        <p style="color: var(--text-muted);">Commits</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 style="font-weight: 700; font-size: 1.25rem;">20+</h3>
+                        <p style="color: var(--text-muted);">Projects</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 style="font-weight: 700; font-size: 1.25rem;">500+</h3>
+                        <p style="color: var(--text-muted);">GitHub Stars</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 style="font-weight: 700; font-size: 1.25rem;">3</h3>
+                        <p style="color: var(--text-muted);">Hackathons Won</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="background: rgba(17, 24, 39, 0.3);" role="region" aria-label="Skills">
+        <div class="container">
+            <h2 class="gradient-text fade-in">My Tech Stack</h2>
+            <div class="skills-grid slide-right">
+                <div class="skill-pill">React.js</div>
+                <div class="skill-pill">Node.js</div>
+                <div class="skill-pill">JavaScript</div>
+                <div class="skill-pill">Python</div>
+                <div class="skill-pill">MongoDB</div>
+                <div class="skill-pill">MySql</div>
+                <div class="skill-pill">HTML5</div>
+                <div class="skill-pill">CSS3</div>
+                <div class="skill-pill">Git</div>
+                <div class="skill-pill">Docker</div>
+                <div class="skill-pill">AWS</div>
+                <div class="skill-pill">REST APIs</div>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                <div class="glass-card slide-left">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 16px;">Frontend Expertise</h3>
+                    <div style="display: grid; gap: 16px;">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>HTML5</span>
+                                <span style="color: var(--text-muted);">95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>CSS3</span>
+                                <span style="color: var(--text-muted);">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>JavaScript</span>
+                                <span style="color: var(--text-muted);">70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>Tailwind CSS</span>
+                                <span style="color: var(--text-muted);">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card slide-right">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 16px;">Backend Expertise</h3>
+                    <div style="display: grid; gap: 16px;">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>Node.js</span>
+                                <span style="color: var(--text-muted);">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>Express.js</span>
+                                <span style="color: var(--text-muted);">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>MySql</span>
+                                <span style="color: var(--text-muted);">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.875rem;">
+                                <span>PHP</span>
+                                <span style="color: var(--text-muted);">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" role="region" aria-label="My journey">
+        <div class="container">
+            <h2 class="gradient-text fade-in">My Journey</h2>
+            <div class="journey-grid">
+                <div class="glass-card slide-left">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">2019 - The Spark</h3>
+                    <p>Wrote my first Python script, igniting a passion for coding.</p>
+                </div>
+                <div class="glass-card slide-right">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">2022 - Foundations</h3>
+                    <p>Started B.Sc Computer Science and built websites with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="glass-card slide-left">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">2023 - MERN Breakthrough
+                    </h3>
+                    <p>Developed a MERN e-commerce app for a local business.</p>
+                </div>
+                <div class="glass-card slide-right">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">2024 - Hackathon Triumph
+                    </h3>
+                    <p>Won a national hackathon with an AI-driven education platform.</p>
+                </div>
+                <div class="glass-card slide-left">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">2025 - Professional Impact
+                    </h3>
+                    <p>Joined TechSolutions, building scalable apps for thousands.</p>
+                </div>
+                <div class="glass-card slide-right">
+                    <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">Certifications</h3>
+                    <p>Earned AWS, MongoDB, and React certifications, contributing to open-source.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="background: rgba(17, 24, 39, 0.3);" role="region" aria-label="Projects">
+        <div class="container">
+            <h2 class="gradient-text fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="glass-card slide-left">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                            alt="E-Commerce Platform" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="info">
+                            <h3 style="font-weight: 700; font-size: 1.25rem;">E-Commerce Platform</h3>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 24px;">
+                        <p style="color: var(--text-muted); margin-bottom: 16px;">
+                            A robust e-commerce platform with real-time inventory and secure Stripe payments.
+                        </p>
+                        <div style="display: flex; gap: 16px;">
+                            <a href="#" class="btn-secondary">Live Demo</a>
+                            <a href="#" class="btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card slide-right">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=600&q=80"
+                            alt="Task Manager" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="info">
+                            <h3 style="font-weight: 700; font-size: 1.25rem;">Task Manager Pro</h3>
+                            <div class="tags">
+                                <span>Next.js</span>
+                                <span>Firebase</span>
+                                <span>TypeScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 24px;">
+                        <p style="color: var(--text-muted); margin-bottom: 16px;">
+                            A collaborative task manager with drag-and-drop and real-time sync.
+                        </p>
+                        <div style="display: flex; gap: 16px;">
+                            <a href="#" class="btn-secondary">Live Demo</a>
+                            <a href="#" class="btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card slide-left">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/07/d6/9a/07d69ae4bbef75df6310b6cb2b65bb6a.jpg"
+                            alt="Real-Time Chat App" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="info">
+                            <h3 style="font-weight: 700; font-size: 1.25rem;">Digital Health Records</h3>
+                            <div class="tags">
+                                <span>Html</span>
+                                <span>Css</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 24px;">
+                        <p style="color: var(--text-muted); margin-bottom: 16px;">
+                            A messaging app with group chats and end-to-end encryption.
+                        </p>
+                        <div style="display: flex; gap: 16px;">
+                            <a href="#" class="btn-secondary">Live Demo</a>
+                            <a href="#" class="btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section id="team" role="region" aria-label="Team members">
+        <div class="container">
+            <h2 class="gradient-text fade-in">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-card slide-left">
+                    <div class="team-member">
+                        <img src="../images/arun.png" alt="Arun Kumar" loading="lazy">
+                        <h3>Arun Kumar</h3>
+                        <p class="gradient-text" style="font-size: 0.875rem; margin-bottom: 8px;">Full Stack Developer
+                        </p>
+                        <p style="color: var(--text-muted);">Leads MERN stack projects.</p>
+                    </div>
+                </div>
+                <div class="team-card slide-right">
+                    <div class="team-member">
+                        <img src="../images/umang.png" alt="Umang Arora" loading="lazy">
+                        <h3>Umang Arora</h3>
+                        <p class="gradient-text" style="font-size: 0.875rem; margin-bottom: 8px;">Databases Manager</p>
+                        <p style="color: var(--text-muted);">Designs stunning interfaces.</p>
+                    </div>
+                </div>
+                <div class="team-card slide-left">
+                    <div class="team-member">
+                        <img src="../images/romit.png" alt="Romit" loading="lazy">
+                        <h3>Romit </h3>
+                        <p class="gradient-text" style="font-size: 0.875rem; margin-bottom: 8px;">Backend Developer</p>
+                        <p style="color: var(--text-muted);">Builds robust APIs.</p>
+                    </div>
+                </div>
+                <div class="team-card slide-right">
+                    <div class="team-member">
+                        <img src="../images/mohit.png" alt="Mohit" loading="lazy">
+                        <h3>Mohit </h3>
+                        <p class="gradient-text" style="font-size: 0.875rem; margin-bottom: 8px;">Data Analytics</p>
+                        <p style="color: var(--text-muted);">Streamlines deployments.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" role="region" aria-label="Testimonials">
+        <div class="container">
+            <h2 class="gradient-text fade-in">What People Say</h2>
+            <div class="testimonials-grid">
+                <div class="glass-card slide-left">
+                    <p style="color: var(--text-muted); margin-bottom: 16px;">
+                        "Arun’s MERN stack expertise delivered an exceptional app for our startup."
+                    </p>
+                    <p style="color: var(--primary); font-weight: 600;">Priya Sharma, CTO</p>
+                </div>
+                <div class="glass-card slide-right">
+                    <p style="color: var(--text-muted); margin-bottom: 16px;">
+                        "Arun’s solutions are robust, scalable, and always on time."
+                    </p>
+                    <p style="color: var(--primary); font-weight: 600;">Rahul Verma, Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" role="region" aria-label="Contact me">
+        <div class="container">
+            <h2 class="gradient-text fade-in">Let’s Connect</h2>
+            <div class="contact-card">
+                <form action="https://formspree.io/f/your-form-id" method="POST">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" class="contact-input" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" class="contact-input"
+                            required>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" class="contact-input"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Arun Kumar. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" target="_blank" aria-label="X">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.875rem;">Design By <a href="">Arun Kumar</a>.</p>
+            </div>
+          
+        </div>
+       
+    </footer>
+</body>
+
+</html>
