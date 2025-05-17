@@ -26,8 +26,7 @@ This is my personal portfolio website built using only **HTML5** and **CSS3**. I
 
 ## 📸 Screenshot
 
-*(Add a screenshot of your portfolio website here)*  
-You can upload an image and link it like this:
+
 
 
 
@@ -38,11 +37,9 @@ You can upload an image and link it like this:
 
 Feel free to reach out if you'd like to connect or collaborate!
 
-📧 Email: your.email@example.com  
-🌐 LinkedIn: [YourProfile](https://linkedin.com/in/yourprofile)
+📧 Email: arunkumarbind150720@gmail.com  
+
 
 ---
 
-## 📌 License
 
-This project is open-source and free to use under the [MIT License](LICENSE).
